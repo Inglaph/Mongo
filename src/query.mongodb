@@ -1,0 +1,4 @@
+use("sample_training")
+
+// Find all the documents in the companies collection.
+db.zips.find({ state: "NY"}).pretty()
